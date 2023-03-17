@@ -16,8 +16,25 @@ public_html/storage
 public_html/hot
 
 storage/*.key
+storage/framework
 .env
 Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+app/Http/Middleware/
+app/Http/Kernel.php
+app/Console/Kernel.php
+tests/
+config/
+artisan
+bootstrap/
+app/Providers/AppServiceProvider.php
+app/Providers/AuthServiceProvider.php
+app/Providers/BroadcastServiceProvider.php
+app/Providers/EventServiceProvider.php
+app/Providers/RouteServiceProvider.php
+database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php
+database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php
+database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+database/migrations/2014_10_12_000000_create_users_table.php
