@@ -16,8 +16,20 @@ public_html/storage
 public_html/hot
 
 storage/*.key
+storage/framework
 .env
 Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
+app/MaxMin.php
+app/Models/Department.php
+app/Models/Employee.php
+app/Validators/EmployeeValidator.php
+app/ViewDepartment.php
+app/ViewEmployee.php
+composer.json
+composer.lock
+docker/Fpm.Dockerfile
+docker/Nginx.Dockerfile
+routes/web.php
+docker-compose.yml
